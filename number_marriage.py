@@ -13,7 +13,7 @@ def cancellation3():
 	How did you even GET here, you DEVIANT!
 	
 	"""
-	exit(0)
+	exit(1)
 
 
 def cancellation2(wrong, bad):
@@ -24,7 +24,7 @@ def cancellation2(wrong, bad):
 	We may as well let HARES marry RABBITS.
 	
 	""" % (wrong, bad)
-	exit(0)
+	exit(1)
 
 
 def cancellation1(wrong, bad):
@@ -35,7 +35,7 @@ def cancellation1(wrong, bad):
 	We may as well let FOXES get married.
 	
 	""" % (wrong, bad)
-	exit(0)
+	exit(1)
 
 
 def holy_matrimony(bride, groom):

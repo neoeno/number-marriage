@@ -54,7 +54,7 @@ print """
 
 """
 
-bride = raw_input("[please enter an integer]: ")
+bride = raw_input("[please enter a number]: ")
 shoe_test = is_number(bride)
 
 print """
@@ -63,7 +63,7 @@ print """
 
 """
 
-groom = raw_input("[please enter another integer]: ")
+groom = raw_input("[please enter another number]: ")
 beard_test = is_number(groom)
 
 while True:

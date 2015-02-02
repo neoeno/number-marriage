@@ -12,15 +12,6 @@ def is_number(s):
 	except ValueError:
 		pass
 	return False
-	
-
-def cancellation3():
-	print """
-	
-	How did you even GET here, you DEVIANT!
-	
-	"""
-	exit(1)
 
 
 def cancellation2(wrong, bad):
@@ -73,17 +64,12 @@ print """
 groom = raw_input("[please enter another number]: ")
 beard_test = is_number(groom)
 
-while True:
-	if beard_test == False and shoe_test == True:
-		cancellation2(bride, groom)
-	elif beard_test == True and shoe_test == False:
-		cancellation2(bride, groom)
-	elif beard_test == False and shoe_test == False:
-		cancellation1(bride, groom)
-	elif beard_test == True and shoe_test == True:
-		break
-	else:
-		cancellation3()		
+if beard_test == False and shoe_test == True:
+	cancellation2(bride, groom)
+elif beard_test == True and shoe_test == False:
+	cancellation2(bride, groom)
+elif beard_test == False and shoe_test == False:
+	cancellation1(bride, groom)
 
 print """
 

@@ -4,6 +4,7 @@ class bcolors:
 	WHITE = '\033[29m'
 	ENDC = '\033[0m'
 
+
 def is_number(s):
 	try:
 		float(s)
@@ -137,7 +138,7 @@ print """
 
 raw_input(">> ")
 
-raw_input("proceed with holy matrimony? press CTRL + C to cancel >> ")
+raw_input("\nproceed with holy matrimony? press CTRL + C to cancel >> ")
 
 union = holy_matrimony(bride, groom)
 

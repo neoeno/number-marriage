@@ -166,7 +166,7 @@ print bcolors.RED + """
   <3<3<3<3<3<3<3<3<3<3<3<3<3<3<3<3<3<3<3<3<3<3<3
 """,
 print "<3<3<3<3" + bcolors.ENDC,
-print bcolors.WHITE + "I now pronounce you %s!" % union + bcolors.ENDC,
+print bcolors.WHITE + "I now pronounce you %g!" % union + bcolors.ENDC,
 print bcolors.RED + "<3" + bcolors.ENDC,
 
 print bcolors.RED + """

@@ -25,7 +25,7 @@ def cancellation3():
 def cancellation2(wrong, bad):
 	print """
 	
-	I am afraid we do not live in the kind of world where %g and %g can get married.
+	I am afraid we do not live in the kind of world where %s and %s can get married.
 	
 	We may as well let HARES marry RABBITS.
 	
@@ -36,7 +36,7 @@ def cancellation2(wrong, bad):
 def cancellation1(wrong, bad):
 	print """
 	
-	I am afraid we do not live in the kind of world where %g and %g can get married.
+	I am afraid we do not live in the kind of world where %s and %s can get married.
 	
 	We may as well let WEASELS get married.
 	
